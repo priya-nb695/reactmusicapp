@@ -1,0 +1,58 @@
+.playlist-Container{
+    background-color: rgba(115, 197, 77, 0.678);
+    border:2px solid rgb(8, 8, 8);
+    width:400px;
+    margin-left: 400px;
+
+   /*  align-items: center; */
+    /* justify-content: center; */
+    /*  */
+
+
+}
+#audioplayer-heading{
+    margin-left: 400px;
+}
+#playlist-heading{
+    margin-left: 42px;
+}
+.playlist-holder{
+  
+    
+
+}
+
+.songImage{
+
+  width: 150px; /* Set the width as needed */
+  height: 150px;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 30px;
+  border: 1px solid purple;
+}
+
+.audioplayer-container{
+    background-color: rgba(228, 174, 26, 0.678);
+    border:2px solid rgb(12, 12, 12);
+    width:400px;
+    margin-left: 400px;
+   
+}
+
+.song-Name{
+    margin-left: 120px; 
+}
+.audio-palyer-control{
+    margin-left: 50px; 
+}
+.playlist-song{
+    display: flex;
+    width: 300px;
+    margin-bottom: 5px;
+    background-color: darkgray;
+    margin-left: 45px;;
+    justify-content: center;
+    border:2px solid rgb(12, 12, 12);
+    border-radius: 5px;
+}
