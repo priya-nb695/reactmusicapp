@@ -4,11 +4,6 @@
     width:400px;
     margin-left: 400px;
 
-   /*  align-items: center; */
-    /* justify-content: center; */
-    /*  */
-
-
 }
 #audioplayer-heading{
     margin-left: 400px;
@@ -16,15 +11,15 @@
 #playlist-heading{
     margin-left: 42px;
 }
-.playlist-holder{
-  
-    
-
+.addSongsContainer{
+    border: 1px solid black;
+    margin-left: 400px;
+    width:400px;
 }
 
 .songImage{
 
-  width: 150px; /* Set the width as needed */
+  width: 150px; 
   height: 150px;
   justify-content: center;
   margin-left: 120px;

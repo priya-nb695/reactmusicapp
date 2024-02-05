@@ -1,7 +1,4 @@
-// Playlist.js
 import React from 'react';
-//import "../styles/main.css"
-
 
 const Playlist = ({ files, onFileSelected }) => {
   return (

@@ -1,17 +1,9 @@
-// AudioPlayer.js
 import React, { useRef, useEffect, useState } from 'react';
 
 const AudioPlayer = ({ src, songName,songImage,onEnded }) => {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
-//   useEffect(() => {
-//     if (src) {
-//       audioRef.current.src = src;
-//       audioRef.current.play();
-//       setIsPlaying(true);
-//     }
-//   }, [src]);
 useEffect(() => {
     if (src) {
       audioRef.current.src = src;
